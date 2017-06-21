@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D1CDFCF1EFBF2960070BC3C /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CDFCE1EFBF2960070BC3C /* ResultCell.swift */; };
+		6D1CDFD21EFBF5200070BC3C /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CDFD11EFBF5200070BC3C /* Globals.swift */; };
+		6D1CDFD41EFBFC540070BC3C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CDFD31EFBFC540070BC3C /* Extensions.swift */; };
+		6D1CDFD61EFC00390070BC3C /* ModalWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CDFD51EFC00390070BC3C /* ModalWebView.swift */; };
+		6D1CDFD81EFC00540070BC3C /* ModalWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D1CDFD71EFC00540070BC3C /* ModalWebView.xib */; };
 		6D24FDC81EFAC4EC0054A43E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24FDC71EFAC4EC0054A43E /* AppDelegate.swift */; };
-		6D24FDCA1EFAC4EC0054A43E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24FDC91EFAC4EC0054A43E /* ViewController.swift */; };
 		6D24FDCD1EFAC4EC0054A43E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D24FDCB1EFAC4EC0054A43E /* Main.storyboard */; };
 		6D24FDD01EFAC4EC0054A43E /* test_mozghovoy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D24FDCE1EFAC4EC0054A43E /* test_mozghovoy.xcdatamodeld */; };
 		6D24FDD21EFAC4EC0054A43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D24FDD11EFAC4EC0054A43E /* Assets.xcassets */; };
 		6D24FDD51EFAC4EC0054A43E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D24FDD31EFAC4EC0054A43E /* LaunchScreen.storyboard */; };
+		6D25DCC71EFBE02700327A80 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DCC61EFBE02700327A80 /* SearchViewController.swift */; };
+		6D25DCC91EFBE0C600327A80 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DCC81EFBE0C600327A80 /* SearchBar.swift */; };
+		6D25DCCB1EFBE0DB00327A80 /* SearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D25DCCA1EFBE0DB00327A80 /* SearchBar.xib */; };
+		6D604C691EFAE30700C9433D /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D604C681EFAE30700C9433D /* DBManager.swift */; };
+		6D604C6A1EFAE45200C9433D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24FDDD1EFAC98E0054A43E /* APIManager.swift */; };
+		B937B50A7F97B0310811A187 /* Pods_test_mozghovoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF8F014CEA7BC799D7BC456 /* Pods_test_mozghovoy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EFF88C99572CA105959596C /* Pods-test-mozghovoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-mozghovoy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-mozghovoy/Pods-test-mozghovoy.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1CDFCE1EFBF2960070BC3C /* ResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		6D1CDFD11EFBF5200070BC3C /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		6D1CDFD31EFBFC540070BC3C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6D1CDFD51EFC00390070BC3C /* ModalWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalWebView.swift; sourceTree = "<group>"; };
+		6D1CDFD71EFC00540070BC3C /* ModalWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalWebView.xib; sourceTree = "<group>"; };
 		6D24FDC41EFAC4EC0054A43E /* test-mozghovoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-mozghovoy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D24FDC71EFAC4EC0054A43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D24FDC91EFAC4EC0054A43E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D24FDCC1EFAC4EC0054A43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D24FDCF1EFAC4EC0054A43E /* test_mozghovoy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test_mozghovoy.xcdatamodel; sourceTree = "<group>"; };
 		6D24FDD11EFAC4EC0054A43E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D24FDD41EFAC4EC0054A43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D24FDD61EFAC4EC0054A43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D24FDDD1EFAC98E0054A43E /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		6D25DCC61EFBE02700327A80 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6D25DCC81EFBE0C600327A80 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		6D25DCCA1EFBE0DB00327A80 /* SearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchBar.xib; sourceTree = "<group>"; };
+		6D604C681EFAE30700C9433D /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		CFF8F014CEA7BC799D7BC456 /* Pods_test_mozghovoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_mozghovoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA26DA9F8FD4ACC9B3B49B5 /* Pods-test-mozghovoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-mozghovoy.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-mozghovoy/Pods-test-mozghovoy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B937B50A7F97B0310811A187 /* Pods_test_mozghovoy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		371D5F601EFC62E000047B92 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DCC81EFBE0C600327A80 /* SearchBar.swift */,
+				6D25DCCA1EFBE0DB00327A80 /* SearchBar.xib */,
+			);
+			name = SearchBar;
+			sourceTree = "<group>";
+		};
+		371D5F611EFC62ED00047B92 /* TableView Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CDFCE1EFBF2960070BC3C /* ResultCell.swift */,
+			);
+			name = "TableView Cell";
+			sourceTree = "<group>";
+		};
+		371D5F621EFC62F800047B92 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CDFD51EFC00390070BC3C /* ModalWebView.swift */,
+				6D1CDFD71EFC00540070BC3C /* ModalWebView.xib */,
+			);
+			name = UIWindow;
+			sourceTree = "<group>";
+		};
+		6D1CDFD01EFBF5130070BC3C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CDFD31EFBFC540070BC3C /* Extensions.swift */,
+				6D1CDFD11EFBF5200070BC3C /* Globals.swift */,
+			);
+			name = Common;
+			path = Controllers/Common;
+			sourceTree = "<group>";
+		};
 		6D24FDBB1EFAC4EC0054A43E = {
 			isa = PBXGroup;
 			children = (
 				6D24FDC61EFAC4EC0054A43E /* test-mozghovoy */,
 				6D24FDC51EFAC4EC0054A43E /* Products */,
+				F62D8CD60DD92C01EE8F27B2 /* Pods */,
+				E35473C90F2A6340D7F7DA2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +118,70 @@
 			isa = PBXGroup;
 			children = (
 				6D24FDC71EFAC4EC0054A43E /* AppDelegate.swift */,
-				6D24FDC91EFAC4EC0054A43E /* ViewController.swift */,
 				6D24FDCB1EFAC4EC0054A43E /* Main.storyboard */,
 				6D24FDD11EFAC4EC0054A43E /* Assets.xcassets */,
 				6D24FDD31EFAC4EC0054A43E /* LaunchScreen.storyboard */,
 				6D24FDD61EFAC4EC0054A43E /* Info.plist */,
-				6D24FDCE1EFAC4EC0054A43E /* test_mozghovoy.xcdatamodeld */,
+				6D1CDFD01EFBF5130070BC3C /* Common */,
+				6D25DCC41EFBDF7000327A80 /* Controllers */,
+				6D25DCC51EFBDF7000327A80 /* Views */,
+				6D24FDDF1EFAD0A10054A43E /* DBModels */,
+				6D24FDDC1EFAC98E0054A43E /* Managers */,
 			);
 			path = "test-mozghovoy";
+			sourceTree = "<group>";
+		};
+		6D24FDDC1EFAC98E0054A43E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6D24FDDD1EFAC98E0054A43E /* APIManager.swift */,
+				6D604C681EFAE30700C9433D /* DBManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6D24FDDF1EFAD0A10054A43E /* DBModels */ = {
+			isa = PBXGroup;
+			children = (
+				6D24FDCE1EFAC4EC0054A43E /* test_mozghovoy.xcdatamodeld */,
+			);
+			name = DBModels;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D25DCC41EFBDF7000327A80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DCC61EFBE02700327A80 /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D25DCC51EFBDF7000327A80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				371D5F601EFC62E000047B92 /* SearchBar */,
+				371D5F611EFC62ED00047B92 /* TableView Cell */,
+				371D5F621EFC62F800047B92 /* UIWindow */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E35473C90F2A6340D7F7DA2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8F014CEA7BC799D7BC456 /* Pods_test_mozghovoy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F62D8CD60DD92C01EE8F27B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EFF88C99572CA105959596C /* Pods-test-mozghovoy.debug.xcconfig */,
+				EAA26DA9F8FD4ACC9B3B49B5 /* Pods-test-mozghovoy.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D24FDD91EFAC4EC0054A43E /* Build configuration list for PBXNativeTarget "test-mozghovoy" */;
 			buildPhases = (
+				669916E1FA8E1365D6CCC8DD /* [CP] Check Pods Manifest.lock */,
 				6D24FDC01EFAC4EC0054A43E /* Sources */,
 				6D24FDC11EFAC4EC0054A43E /* Frameworks */,
 				6D24FDC21EFAC4EC0054A43E /* Resources */,
+				E24E147ABD36625502FCD659 /* [CP] Embed Pods Frameworks */,
+				A0116EC8B8A5AF6164679EC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,7 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D25DCCB1EFBE0DB00327A80 /* SearchBar.xib in Resources */,
 				6D24FDD51EFAC4EC0054A43E /* LaunchScreen.storyboard in Resources */,
+				6D1CDFD81EFC00540070BC3C /* ModalWebView.xib in Resources */,
 				6D24FDD21EFAC4EC0054A43E /* Assets.xcassets in Resources */,
 				6D24FDCD1EFAC4EC0054A43E /* Main.storyboard in Resources */,
 			);
@@ -135,14 +257,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		669916E1FA8E1365D6CCC8DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0116EC8B8A5AF6164679EC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-mozghovoy/Pods-test-mozghovoy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24E147ABD36625502FCD659 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-mozghovoy/Pods-test-mozghovoy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D24FDC01EFAC4EC0054A43E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D24FDCA1EFAC4EC0054A43E /* ViewController.swift in Sources */,
+				6D25DCC91EFBE0C600327A80 /* SearchBar.swift in Sources */,
+				6D1CDFD61EFC00390070BC3C /* ModalWebView.swift in Sources */,
+				6D25DCC71EFBE02700327A80 /* SearchViewController.swift in Sources */,
+				6D1CDFCF1EFBF2960070BC3C /* ResultCell.swift in Sources */,
 				6D24FDC81EFAC4EC0054A43E /* AppDelegate.swift in Sources */,
+				6D1CDFD41EFBFC540070BC3C /* Extensions.swift in Sources */,
+				6D604C6A1EFAE45200C9433D /* APIManager.swift in Sources */,
 				6D24FDD01EFAC4EC0054A43E /* test_mozghovoy.xcdatamodeld in Sources */,
+				6D604C691EFAE30700C9433D /* DBManager.swift in Sources */,
+				6D1CDFD21EFBF5200070BC3C /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +440,12 @@
 		};
 		6D24FDDA1EFAC4EC0054A43E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFF88C99572CA105959596C /* Pods-test-mozghovoy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G5RH43PBN9;
 				INFOPLIST_FILE = "test-mozghovoy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mozghovii.test-mozghovoy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,10 +455,12 @@
 		};
 		6D24FDDB1EFAC4EC0054A43E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA26DA9F8FD4ACC9B3B49B5 /* Pods-test-mozghovoy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G5RH43PBN9;
 				INFOPLIST_FILE = "test-mozghovoy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mozghovii.test-mozghovoy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +487,7 @@
 				6D24FDDB1EFAC4EC0054A43E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -316,7 +498,8 @@
 				6D24FDCF1EFAC4EC0054A43E /* test_mozghovoy.xcdatamodel */,
 			);
 			currentVersion = 6D24FDCF1EFAC4EC0054A43E /* test_mozghovoy.xcdatamodel */;
-			path = test_mozghovoy.xcdatamodeld;
+			name = test_mozghovoy.xcdatamodeld;
+			path = ../test_mozghovoy.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
